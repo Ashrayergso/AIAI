@@ -1,0 +1,50 @@
+/* Reset some basic elements */
+html, body, #__next {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Set a global box-sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Set a global link style */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Set a global button style */
+button {
+  cursor: pointer;
+}
+
+/* Set global styles for the search input and button */
+#search-input, #search-button {
+  height: 35px;
+  margin: 5px;
+}
+
+#search-input {
+  width: 70%;
+  padding: 5px;
+}
+
+#search-button {
+  width: 20%;
+}
+
+/* Set global styles for the search results and agent cards container */
+#search-results, #agent-cards {
+  width: 100%;
+  padding: 20px;
+}
+
+/* Set a global style for error messages */
+#error-message {
+  color: red;
+  font-weight: bold;
+}
